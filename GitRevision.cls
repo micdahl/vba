@@ -20,7 +20,7 @@ Const notVersionedString = "0"
 ' or if document has changed after last commit
 ' Path to git executable is given in  Const gitExecutable
 Private Sub actualizeVersion()
-    
+'could you please add actual object name instead of object
     Dim fileVersion As String
     Dim FileName As String
     Dim objShell As Object
